@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ankitha R, Computer Science student and aspiring Software Engineer">
+  <meta name="keywords" content="portfolio, software engineer, frontend developer, computer science">
+  <title>Ankitha R | Computer Science Student & Aspiring Software Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Ankitha R</div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="assets/resume_ANKITHA.pdf" class="nav-link resume-btn" target="_blank">My Resume Download</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hello, I'm <span class="highlight">Ankitha R</span></h1>
+        <h2 class="hero-subtitle">Computer Science Student & Aspiring Software Engineer</h2>
+        <p class="hero-description">I build innovative solutions that solve real-world problems through technology.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-img-container">
+          <img src="assets/image.jpg" alt="Ankitha R Profile Photo" class="profile-img" loading="lazy">
+        </div>
+        <div class="about-text">
+          <p>I am a passionate Computer Science student with a strong foundation in software development and a keen interest in emerging technologies. My academic journey has equipped me with both theoretical knowledge and practical skills to develop innovative solutions.</p>
+          
+          <p>My projects range from IoT-based smart irrigation systems to AI-powered skincare analysis tools, demonstrating my ability to combine technical skills with creative problem-solving. I'm particularly interested in the intersection of machine learning and practical applications that improve everyday life.</p>
+          
+          <p>Currently, I'm focused on expanding my expertise in full-stack development while continuing to explore artificial intelligence and its real-world implementations. I thrive in collaborative environments and am always eager to take on new challenges that push my boundaries.</p>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <h3>Education</h3>
+              <p>Bachelor of Engineering in Computer Science</p>
+              <p>GATE 2025 Qualified</p>
+            </div>
+            <div class="detail-item">
+              <h3>Interests</h3>
+              <p>Machine Learning, Web Development, IoT, Problem Solving</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <article class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Digital Noticeboard System</h3>
+            <p class="project-description">A secure web application with role-based access control (admin/student) for managing department notices. Features user authentication, notice categorization, and real-time updates.</p>
+            <ul class="project-tech">
+              <li>React.js</li>
+              <li>Flask</li>
+              <li>MySQL</li>
+              <li>JWT Authentication</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ankitha927/FinalNoticeBoard" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </article>
+        
+        <article class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Smart Irrigation System</h3>
+            <p class="project-description">IoT solution combining soil moisture sensors with weather data and deep learning algorithms to optimize water usage in agriculture, reducing waste by up to 30%.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>TensorFlow</li>
+              <li>Raspberry Pi</li>
+              <li>IoT Protocols</li>
+            </ul>
+          </div>
+        </article>
+        
+        <article class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">AI Skincare Analysis</h3>
+            <p class="project-description">Deep learning application that analyzes facial skin conditions through image processing and provides personalized skincare recommendations.</p>
+            <ul class="project-tech">
+              <li>OpenCV</li>
+              <li>Flask</li>
+              <li>CNN</li>
+              <li>Computer Vision</li>
+            </ul>
+          </div>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container">
+        
+        <div class="skills-category">
+          <h3 class="skills-category-title">Programming Languages</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span>Python</span>
+              <div class="skill-level" style="width: 90%"></div>
+            </li>
+            <li class="skill-item">
+              <span>JavaScript</span>
+              <div class="skill-level" style="width: 80%"></div>
+            </li>
+            <li class="skill-item">
+              <span>Java</span>
+              <div class="skill-level" style="width: 75%"></div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="skills-category">
+          <h3 class="skills-category-title">Web Development</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span>HTML5 & CSS3</span>
+              <div class="skill-level" style="width: 85%"></div>
+            </li>
+            <li class="skill-item">
+              <span>React.js</span>
+              <div class="skill-level" style="width: 80%"></div>
+            </li>
+            <li class="skill-item">
+              <span>Flask</span>
+              <div class="skill-level" style="width: 75%"></div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="skills-category">
+          <h3 class="skills-category-title">Data & AI</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span>Machine Learning</span>
+              <div class="skill-level" style="width: 80%"></div>
+            </li>
+            <li class="skill-item">
+              <span>MySQL</span>
+              <div class="skill-level" style="width: 75%"></div>
+            </li>
+            <li class="skill-item">
+              <span>TensorFlow</span>
+              <div class="skill-level" style="width: 70%"></div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <h2 class="section-title">Achievements & Awards</h2>
+      <div class="achievements-grid">
+        
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="achievement-title">2nd Prize - Paper Presentation</h3>
+          <p class="achievement-description">Awarded for innovative research on Crop Yield Optimization using machine learning at state-level technical symposium.</p>
+        </div>
+        
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h3 class="achievement-title">COMEDKares Finalist</h3>
+          <p class="achievement-description">Selected among top projects in social innovation competition for developing accessible tech solutions.</p>
+        </div>
+        
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3 class="achievement-title">GATE 2025 Qualified</h3>
+          <p class="achievement-description">Achieved qualification in Graduate Aptitude Test in Engineering during undergraduate studies.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm currently looking for internship opportunities and interesting projects to contribute to. Feel free to reach out for collaborations or just to say hello!</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:rankitha927@gmail.com">rankitha927@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/ankitha-r-acharya-146895283" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/ankitha927" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contact-form" netlify>
+          <div class="form-group">
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" required placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Ankitha R</div>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/ankitha-r-acharya-146895283" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/ankitha927" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:rankitha927@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Ankitha R. All rights reserved.</p>
+        <p>Designed & built with  by Ankitha</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Update copyright year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Mobile navigation toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !isExpanded);
+    });
+    
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
